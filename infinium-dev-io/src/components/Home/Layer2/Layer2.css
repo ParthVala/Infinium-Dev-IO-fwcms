@@ -1,0 +1,91 @@
+.L2all{
+    /* margin-top: 35rem; */
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.L2h2{
+    text-align: center;
+    font-size: 44px;
+}
+
+.L2p{
+    word-wrap: break-all;
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.L2a{
+    margin-bottom: 10 rem;
+}
+
+.whole{
+    margin-top: 6rem;
+}
+
+.wtex{
+    width: 60%;
+    margin-left: 98px;
+}
+
+.l2b1{
+    margin: 15px 55px;
+    width: 354px;
+    height: 363px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.l2b11{
+    display: flex;
+}
+
+.l2b12{
+    display: flex;
+}
+
+.l2imge{
+    position: relative;
+    top: 45px;
+}
+
+.l2hale{
+    position: relative;
+    top: 100px;
+    color: #FFBA49;
+    font-size: 20px;
+    letter-spacing: 0.25;
+}
+
+.l2pale{
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    top: 110px;
+}
+
+@media only screen and (max-width:600px){
+    .l2b1{
+        margin: 15px 5px;
+        width: 100%;
+        height: 370px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    }
+    .L2h2{
+        text-align: center;
+        font-size: 30px;
+        width: 90%;
+    }
+    .L2p{
+        word-wrap: break-all;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+    }
+}

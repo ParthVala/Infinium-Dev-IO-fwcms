@@ -1,0 +1,48 @@
+.l3cah{
+    text-align: center;
+    margin-top: 350px;
+    font-size: 44px;
+}
+
+.l3capic{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 150px auto;
+}
+
+.l3ca-main-img{
+    margin: 150px auto;
+    height: auto;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .l3cah{
+        margin-top: 350px;
+        text-align: center;
+        font-size: 34px;
+    }
+    .l3caall{
+        width: 100%;
+    }
+    .l3ca-main-img{
+        margin: 150px auto;
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .l3caall{
+        width: 100%;
+    }
+    .l3ca-main-img{
+        margin: 150px auto;
+        height: auto;
+        width: 60%;
+    }
+}

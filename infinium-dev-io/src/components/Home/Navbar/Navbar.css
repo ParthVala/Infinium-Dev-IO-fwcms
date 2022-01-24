@@ -1,0 +1,54 @@
+.linnk{
+    text-decoration: none;
+    color: grey;
+}
+
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #ffdb11;
+  border-radius: 100px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  line-height: 29px;
+  padding: 3px 10px 0 11px;
+  /* position: relative; */
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 120px;
+  float: right;
+}
+
+.linnk > h6{
+  text-decoration: none;
+  color: grey;
+}
+
+.button-13:hover {
+  background-color: #FFBA49;
+}
+
+.navbar-main-row{
+  width: 80%;
+  /* float: right; */
+  margin-left: 0%;
+  margin-right: auto;
+}
+
+.navbar-row-wrap{
+  width: 100%;
+  padding-left: 20%;
+  right: 0;
+  float: right;
+}
+
+h6:active{
+  color: #FFBA49;
+}

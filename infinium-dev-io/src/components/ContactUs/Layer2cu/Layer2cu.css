@@ -1,0 +1,47 @@
+.fo{
+    width: 80%;
+}
+
+.buton{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.l2cuh{
+    font-size: 34px;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    margin-top: 12%;
+}
+
+.l2cupic{
+    margin-left: 100px;
+    height: auto;
+    width: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .l2cupic{
+        height: auto;
+        width: 200px;
+    }
+    .one-img{
+        width: 200px;
+    }
+    .l2cuh{
+        font-size: 30px;
+        line-height: 57px;
+        letter-spacing: 0.20000000298023224px;
+        margin-top: 12%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .l2cupic{
+        height: auto;
+        width: 100%;
+    }
+    .one-img{
+        width: 200px;
+    }
+}

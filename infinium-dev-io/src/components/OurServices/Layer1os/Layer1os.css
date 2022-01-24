@@ -1,0 +1,51 @@
+/* .l1osall{
+    margin-left: 75px;
+    margin-right: 75px;
+} */
+
+.l1osh{
+    text-align: center;
+    margin-top: 13rem;
+    font-size: 44px;
+}
+
+.l1ost{
+    word-wrap: break-all;
+    width: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.l1osf{
+    width: 100%;
+    position: relative;
+    right: 150px;
+    bottom: 50px;
+}
+
+@media only screen and (max-width: 600px){
+    .l1osh{
+        text-align: center;
+        margin-top: 13rem;
+        font-size: 30px;
+    }
+    
+    .l1ost{
+        word-wrap: break-all;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4rem;
+        font-size: 16px;
+    }
+    
+    .l1osf{
+        width: 100%;
+        position: relative;
+        right: 1px;
+        bottom: 50px;
+    }
+}

@@ -1,0 +1,76 @@
+.l3all{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.l3hh{
+    margin-top: 250px;
+    text-align: center;
+    font-size: 44px;
+}
+
+.l3pp{
+    word-wrap: break-all;
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    margin-bottom: 150px;
+}
+
+.l3im{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.l3tex{
+    width: 80%;
+}
+
+.l3b{
+    border: none;
+    height: 1px;
+    background: #000;
+    background: repeating-linear-gradient(90deg,rgb(231, 217, 16),rgb(255, 239, 17) 6px,transparent 6px,transparent 12px);
+    position: relative;
+    bottom:38px;
+    left: 80px;
+}
+
+.l3f{
+    width: 100%;
+    position: relative;
+    left: 75px;
+    bottom: 50px;
+}
+
+.last{
+    margin-top: 32px;
+}
+
+@media only screen and (max-width: 600px){
+    .l3hh{
+        margin-top: 250px;
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+    }
+    
+    .l3pp{
+        word-wrap: break-all;
+        width: 100%;
+        /* text-align: center; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        font-size: 16px;
+        margin-bottom: 150px;
+    }
+    .l3f{
+        width: 100%;
+        position: relative;
+        left: 75px;
+        bottom: 50px;
+    }
+}

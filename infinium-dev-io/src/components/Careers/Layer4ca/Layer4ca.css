@@ -1,0 +1,30 @@
+.l4cahh{
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 44px;
+}
+
+.l4cawho{
+    text-align: center;
+    width: 332px;
+    height: 240px;
+}
+
+.l4caimall{
+    height: 60px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .l4ca1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .l4ca2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

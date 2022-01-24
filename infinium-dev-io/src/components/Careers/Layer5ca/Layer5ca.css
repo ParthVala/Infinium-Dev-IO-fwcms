@@ -1,0 +1,57 @@
+.l5cah{
+    margin-top: 350px;
+    text-align: center;
+    font-size: 44px;
+}
+
+.l5cap{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    word-wrap: break-all;
+    width: 55%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6F6F6F;
+    font-size: 19px;
+}
+
+.l5cabt{
+    width: 22%;
+    border-radius: 7px;
+    background-color: #FFBA49;
+    position: absolute;
+    right: 40%;
+}
+
+.l5caf{
+    width: 100%;
+    position: relative;
+    bottom: 300px; 
+}
+
+@media only screen and (max-width: 600px){
+    .l5cah{
+        margin-top: 350px;
+        text-align: center;
+        font-size: 34px;
+    }
+    .l5cap{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        word-wrap: break-all;
+        width: 85%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #6F6F6F;
+        font-size: 19px;
+    }
+    .l5cabt{
+        width: 30%;
+        border-radius: 7px;
+        background-color: #FFBA49;
+        position: absolute;
+        right: 35%;
+    }
+}
