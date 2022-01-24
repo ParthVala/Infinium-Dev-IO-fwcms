@@ -10,7 +10,7 @@ export default function Layer1() {
 
     useEffect(() => {
         async function fetchData(){
-            await axios.get('/hlayer1/find').then((res) => {
+            await axios.get('http://localhost:5000/hlayer1/find').then((res) => {
                 console.log(res);
                 setHeading(res.data[0]);
             })

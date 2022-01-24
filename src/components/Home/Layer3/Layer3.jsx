@@ -16,14 +16,14 @@ export default function Layer3() {
 
     useEffect(() => {
         async function fetchData(){
-            await axios.get('/homelayer3/homelayer3getDetail').then((res) => {
+            await axios.get('http://localhost:5000/homelayer3/homelayer3getDetail').then((res) => {
                 console.log(res);
                 setHeading(res.data[0])
             })
         }
         fetchData()
         async function fetchData1() {
-            await axios.get('/homelayer31/homelayer31getDetail').then((res) => {
+            await axios.get('http://localhost:5000/homelayer31/homelayer31getDetail').then((res) => {
                 console.log('res data1: ',res);
                 setHeadingzero(res.data)
             })
