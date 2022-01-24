@@ -12,7 +12,7 @@ export default function Layer4ca() {
 
     const [heading, setHeading] = useState()
 
-    const [heading1, setHeading1] = useState()
+    const [headingone, setHeadingone] = useState()
 
     useEffect(() => {
         async function fetchData() {
@@ -25,7 +25,7 @@ export default function Layer4ca() {
         async function fetchData1() {
             axios.get('/careerslayer41/careerslayer41getDetail').then((res) => {
                 console.log(res);
-                setHeading1(res.data)
+                setHeadingone(res.data)
             })
         }
         fetchData1()
@@ -43,9 +43,9 @@ export default function Layer4ca() {
             <div className="row w-100 row-cols-1 row-cols-md-3 g-4 justify-content-md-center l4ca1">
 
 
-                {heading1 ? <>
+                {headingone ? <>
 
-                    {heading1.map((data) => (<>
+                    {headingone.map((data) => (<>
                         
                         <div className="col l4cawho">
                             <div className="card h-100 border-0">

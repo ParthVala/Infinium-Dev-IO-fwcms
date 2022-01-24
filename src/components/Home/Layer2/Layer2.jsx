@@ -12,7 +12,7 @@ export default function Layer2() {
 
     const [heading, setHeading] = useState()
 
-    const [heading0, setHeading0] = useState()
+    const [headingzero, setHeadingzero] = useState()
     
     useEffect(() => {
         async function fetchData(){
@@ -25,7 +25,7 @@ export default function Layer2() {
         async function fetchData1() {
             await axios.get('/homelayer21/homelayer21getDetail').then((res) => {
                 console.log(' Res is : ',res);
-                setHeading0(res.data)
+                setHeadingzero(res.data)
             })
         }
         fetchData1()
@@ -55,8 +55,8 @@ export default function Layer2() {
             <div className="whole">
                 <div className="l2b11 row">
                
-                { heading0 ? <>
-                    {heading0.map((data) => (<>   
+                { headingzero ? <>
+                    {headingzero.map((data) => (<>   
                         <div className="col-xl-4 col-md-6 col-sm-12">
                             <div className="l2b1">
                                 

@@ -12,7 +12,7 @@ export default function Layer3() {
 
     const [heading, setHeading] = useState()
 
-    const [heading0, setHeading0] = useState()
+    const [headingzero, setHeadingzero] = useState()
 
     useEffect(() => {
         async function fetchData(){
@@ -25,7 +25,7 @@ export default function Layer3() {
         async function fetchData1() {
             await axios.get('/homelayer31/homelayer31getDetail').then((res) => {
                 console.log('res data1: ',res);
-                setHeading0(res.data)
+                setHeadingzero(res.data)
             })
         }
         fetchData1()
@@ -43,9 +43,9 @@ export default function Layer3() {
             <div className="row w-100">
                 <div className="card-group">
 
-                { heading0 ? <>
+                { headingzero ? <>
                 
-                    {heading0.map((data) => (<>
+                    {headingzero.map((data) => (<>
                     
                         <div className="col">
                             <div className="card text-left border-0">
