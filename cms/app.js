@@ -21,6 +21,7 @@ const careerslayer5 = require('./routes/careerslayer5');
 const contactUslayer1 = require('./routes/contactUslayer1');
 const contactUslayer2 = require('./routes/contactUslayer2');
 const contactUslayer3 = require('./routes/contactUslayer3');
+const cors = require('cors')
 
 const app = express();
 
@@ -36,6 +37,20 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/uploads', express.static('uploads'));
+
+
+app.use(
+    cors({
+      credentials: true,
+      origin: [
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "http://localhost:3002",
+        "https://infinium-devio-fwcms.herokuapp.com"
+      ],
+    })
+  );
+
 
 app.use('/hlayer1', hlayer1);
 app.use('/homelayer2', homelayer2);
